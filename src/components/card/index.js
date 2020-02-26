@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.scss';
 
-const PostTemplate = (props) => {
+const Card = (props) => {
     return (
         <div className='post'>
             {props.children}
@@ -9,4 +9,4 @@ const PostTemplate = (props) => {
     );
 }
 
-export default PostTemplate;
+export default Card;

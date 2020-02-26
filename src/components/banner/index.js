@@ -1,11 +1,10 @@
 import React from 'react';
 import './style.scss';
-import PostTemplate from '../post-template';
 
 const Banner = () => {
     return (
         <div className='banner'>
-            <PostTemplate></PostTemplate>
+               <p>This is Hero Banner for every page</p>
         </div>
     );
 }
