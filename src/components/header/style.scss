@@ -1,12 +1,15 @@
 $font-primary-color: #161616;
 
 header {
-    display: flex;
     justify-content: space-between;
     padding: 10px 0;
 }
 
-header a {
+header a:hover {
+    text-decoration: underline;
+}
+
+.mr-auto a {
     margin: 0 10px;
     display: inline-block;
     text-decoration: none;
@@ -15,39 +18,18 @@ header a {
     letter-spacing: 1.25px;
 }
 
-header a:hover {
-    text-decoration: underline;
-}
-
-nav {
-    margin: 0;
-    padding: 10px 0;
-}
-
-.logo {
-    font-weight: bold;
-    font-size: 25px;
-    text-transform: uppercase;
+.mr-sm-2 {
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
     color: $font-primary-color;
+    font-size: 12px;
     letter-spacing: 1.25px;
 }
 
-form {
-    display: flex;
-    justify-content: space-between;
+.searchButton {
+    margin: 0 10px;
+    border: none;
+    font-size: 12px;
+    letter-spacing: 1.25px;
 }
-
-.searchInput {
-    border: 0;
-}
-
-.searchInput:focus {
-    outline: none;
-}
-
-.searchImg {
-    height: 24px;
-    width: 24px;
-    padding: 5px;
-}
-

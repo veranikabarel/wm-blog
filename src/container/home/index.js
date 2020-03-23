@@ -1,10 +1,8 @@
 import React from 'react';
-// import Banner from '../../components/banner';
 
 const Home = () => {
     return (
-        <div>
-            {/* <Banner/> */}
+        <div>     
             <p>This is Home component</p>
         </div>
     );

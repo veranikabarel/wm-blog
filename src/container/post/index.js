@@ -1,12 +1,16 @@
 import React from 'react';
 import './style.scss';
+import Card from '../../components/card';
+import BlogPost from '../../components/blogPost';
+import Sidebar from '../../components/sidebar';
 
 const Post = () => {
     return (
         <div>
-            <section>this is section with blog post</section>    
-            <article>this is blog article</article>
-            <aside>this is sidebar</aside>
+            <Card>
+                <BlogPost/>
+                <Sidebar/>
+            </Card>
         </div>
     );
 }

@@ -1,32 +1,22 @@
 import React from 'react';
-import './style.scss';
+import {Navbar, Nav, Form, FormControl, Button} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
+import './style.scss';
 
 const Header = () => {
-
-    const searchSubmit = (e) => {
-        e.preventDefault();
-    }
-
     return (
-        <header>
-            <nav>
-                <NavLink to='/' className='logo'>wool morning</NavLink>
-                <NavLink to='/about'>About</NavLink>
+        <Navbar className='header' bg='light' variant='light'>
+            <Nav className='mr-auto'>
+                <NavLink to='/'>Home</NavLink>
                 <NavLink to='/blog'>Blog</NavLink>
                 <NavLink to='/patterns'>Patterns</NavLink>
                 <NavLink to='/contact'>Contact</NavLink>
-            </nav>
-            <div className='search'>
-                <form onSubmit={searchSubmit}>
-                    <input className='searchInput' type='text' placeholder='Search...'/>
-                    <img
-                        className='searchImg'
-                        src={require('../../assets/icons/search.png')}
-                        alt='search'/>
-                </form>
-            </div>
-        </header>
+            </Nav>
+            <Form inline>
+                <FormControl type='text' placeholder='Type here...' className='mr-sm-2'/>
+                <Button className='searchButton' variant='light'>Search</Button>
+            </Form>
+        </Navbar>
     );
 }
 
