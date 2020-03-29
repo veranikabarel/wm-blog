@@ -1,5 +1,7 @@
-$post-primary-color: #ffffff;
+$background-primary-color: #dfdfdf;
 
 .post {
-    background-color: $post-primary-color;
+    background-color: $background-primary-color;
+    border: 1px solid black;
+    margin: 25px;
 }

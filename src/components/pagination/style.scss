@@ -1,0 +1,10 @@
+$font-primary-color: #161616;
+$font-hover-color: #cc9a48;
+
+.pagination a {
+    color: $font-primary-color;
+}
+
+.pagination a:hover {
+    color: $font-hover-color;
+}
