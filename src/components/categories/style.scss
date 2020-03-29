@@ -1,0 +1,13 @@
+$font-primary-color: #161616;
+
+.categoriesList {
+    margin-top: 10px;
+}
+
+.flex-column a {
+    color: $font-primary-color;
+}
+
+.flex-column a:hover {
+    text-decoration: underline;
+}

@@ -1,9 +1,14 @@
 import React from 'react';
+import AboutMe from '../aboutMe';
+import Categories from '../categories';
+import NewsletterForm from '../newsletter';
 
 const Sidebar = () => {
     return (
         <div>
-            <p>This is Sidebar itself</p>
+            <AboutMe></AboutMe>
+            <Categories></Categories>
+           <NewsletterForm></NewsletterForm>
         </div>
     );
 }

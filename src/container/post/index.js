@@ -1,16 +1,16 @@
 import React from 'react';
 import './style.scss';
-import Card from '../../components/card';
+import BlogPostTemplate from '../../components/blogPostTemplate';
 import BlogPost from '../../components/blogPost';
 import Sidebar from '../../components/sidebar';
 
 const Post = () => {
     return (
         <div>
-            <Card>
+            <BlogPostTemplate>
                 <BlogPost/>
                 <Sidebar/>
-            </Card>
+            </BlogPostTemplate>
         </div>
     );
 }
