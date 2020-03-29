@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom';
 import Contact from './container/contact';
 import Patterns from './container/patterns';
 import blogPage from './container/blog';
+import Footer from './components/footer';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                 <Route exact path="/blog" component={blogPage}/>
                 <Route exact path="/patterns" component={Patterns}/>
                 <Route exact path="/contact" component={Contact}/>
+                <Footer/>
             </div>
         </Router>
     );

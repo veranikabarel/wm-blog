@@ -11,6 +11,7 @@ const Home = () => {
             <Row>
                 <Col className='home'>
                     <BlogPostTemplate></BlogPostTemplate>
+                    <BlogPostTemplate></BlogPostTemplate>
                     <PaginationNumbers></PaginationNumbers>
                 </Col>
 
