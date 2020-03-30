@@ -1,8 +1,8 @@
 import React from 'react';
 import BlogPostTemplate from '../../components/blogPostTemplate';
 import Sidebar from '../../components/sidebar';
-import './style.scss';
 import {Container, Row, Col} from 'react-bootstrap';
+import './style.scss';
 
 const blogPage = () => {
 
@@ -11,10 +11,9 @@ const blogPage = () => {
             <Row>
                 <Col className='blogPostTemplate'><BlogPostTemplate/></Col>
                 <Col xs={2}>
-                    <Sidebar ></Sidebar>
+                    <Sidebar></Sidebar>
                 </Col>
             </Row>
-
         </Container>
     )
 }

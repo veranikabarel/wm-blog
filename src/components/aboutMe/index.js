@@ -1,18 +1,17 @@
 import React from 'react';
 import me from './me.jpg';
-import {Card} from 'react-bootstrap';
+import {Image} from 'react-bootstrap';
+import './style.scss';
 
 const AboutMe = () => {
     return (
         <div>
-            <Card>
-                <Card.Img variant='top' src={me} alt='Me'/>
-                <Card.Body>
-                    <Card.Text>
-                        Hello!
-                    </Card.Text>
-                </Card.Body>
-            </Card>
+            <Image src={me} fluid/>
+            <p className='aboutMeText'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </p>
         </div>
     );
 }
