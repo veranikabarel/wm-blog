@@ -12,10 +12,10 @@ const Home = () => {
                 <Col className='home'>
                     <BlogPostTemplate></BlogPostTemplate>
                     <BlogPostTemplate></BlogPostTemplate>
+                    <BlogPostTemplate></BlogPostTemplate>
                     <PaginationNumbers></PaginationNumbers>
                 </Col>
-
-                <Col className='sidebar' xs={2}>
+                <Col xs={2}>
                     <Sidebar></Sidebar>
                 </Col>
             </Row>

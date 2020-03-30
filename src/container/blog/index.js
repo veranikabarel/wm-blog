@@ -10,7 +10,7 @@ const blogPage = () => {
         <Container>
             <Row>
                 <Col className='blogPostTemplate'><BlogPostTemplate/></Col>
-                <Col className='sidebar' xs={2}>
+                <Col xs={2}>
                     <Sidebar ></Sidebar>
                 </Col>
             </Row>

@@ -12,7 +12,7 @@ const Contact = () => {
                         what’s up or just say “Hi!”, use the following form to contact me! I’ll answer
                         as soon as possible.</p>
                     <Form>
-                        <Form.Row>
+                        <Form.Row className='contactRow'>
                             <Col>
                                 <Form.Label>First Name</Form.Label>
                                 <Form.Control placeholder="First name"/>
@@ -23,17 +23,17 @@ const Contact = () => {
                             </Col>
                         </Form.Row>
 
-                        <Form.Row>
+                        <Form.Row className='contactRow'>
                             <Form.Label>Email</Form.Label>
                             <Form.Control type='email' placeholder='name@example.com'/>
                         </Form.Row>
 
-                        <Form.Row>
+                        <Form.Row className='contactRow'>
                             <Form.Label>Subject</Form.Label>
                             <Form.Control type='subject'/>
                         </Form.Row>
 
-                        <Form.Row>
+                        <Form.Row className='contactRow'>
                             <Form.Label>Message
                             </Form.Label>
                             <Form.Control type='text'/>
@@ -44,7 +44,7 @@ const Contact = () => {
                     </Button>
 
                 </Col>
-                <Col className='sidebar' xs={2}>
+                <Col xs={2}>
                     <Sidebar ></Sidebar>
                 </Col>
             </Row>
