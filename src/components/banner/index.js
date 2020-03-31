@@ -1,12 +1,12 @@
 import React from 'react';
-import './style.scss';
+import {Row, Navbar} from 'react-bootstrap';
 import logo from './logo.png';
-import {Row} from 'react-bootstrap';
+import './style.scss';
 
 const Banner = () => {
     return (
         <Row className='justify-content-center banner'>
-            <img className='logo' src={logo} alt='Logo'/>
+            <Navbar.Brand href='/'><img className='logo' src={logo} alt='Logo'/></Navbar.Brand>
         </Row>
     );
 }

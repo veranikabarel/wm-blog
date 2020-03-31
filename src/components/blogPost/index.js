@@ -1,6 +1,7 @@
 import React from 'react';
-import BlogPostTemplate from '../blogPostTemplate';
 import {Container} from 'react-bootstrap';
+import BlogPostTemplate from '../blogPostTemplate';
+import './style.scss';
 
 const BlogPost = () => {
     return (

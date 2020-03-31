@@ -9,17 +9,16 @@ const Home = () => {
     return (
         <Container>
             <Row>
-                <Col className='home'>
+                <Col sm={9}>
                     <BlogPostTemplate></BlogPostTemplate>
                     <BlogPostTemplate></BlogPostTemplate>
                     <BlogPostTemplate></BlogPostTemplate>
-                    <PaginationNumbers></PaginationNumbers>
                 </Col>
-                <Col xs={2}>
+                <Col sm={3}>
                     <Sidebar></Sidebar>
                 </Col>
             </Row>
-
+            <PaginationNumbers></PaginationNumbers>
         </Container>
     );
 }

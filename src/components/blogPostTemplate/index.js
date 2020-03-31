@@ -1,13 +1,14 @@
 import React from 'react';
-import random from './random.jpg';
-import {Container, Image, Button} from 'react-bootstrap';
+import {Image, Button} from 'react-bootstrap';
+import postPic from './random.jpg';
 import './style.scss';
 
 const BlogPostTemplate = () => {
     return (
-        <Container>
-            <div className='post'>
-                <Image className='postTemplateImage' src={random} fluid/>
+
+        <div className='post'>
+            <Image className='postTemplateImage' src={postPic} fluid/>
+            <div className='postText'>
                 <h3 className='postTemplateHeading'>The title of the blog post</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -15,9 +16,10 @@ const BlogPostTemplate = () => {
                     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
                     dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
                     sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <Button variant="light">Learn more</Button>
+                <Button variant='light'>Learn more</Button>
             </div>
-        </Container>
+        </div>
+
     );
 }
 

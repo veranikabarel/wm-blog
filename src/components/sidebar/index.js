@@ -6,11 +6,13 @@ import './style.scss';
 
 const Sidebar = () => {
     return (
-        <div className='sidebar justify-content-center'>
-            <AboutMe></AboutMe>
-            <Social></Social>
-            <Categories></Categories>
-        </div>
+        <Container>
+            <div className='sidebar justify-content-center'>
+                <AboutMe></AboutMe>
+                <Social></Social>
+                <Categories></Categories>
+            </div>
+        </Container>
     );
 }
 

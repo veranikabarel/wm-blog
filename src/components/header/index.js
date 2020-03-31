@@ -5,10 +5,10 @@ import './style.scss';
 
 const Header = () => {
     return (
-        <Navbar collapseOnSelect expand="lg">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-            <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav className="mr-auto">
+        <Navbar collapseOnSelect expand='lg'>
+            <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
+            <Navbar.Collapse id='responsive-navbar-nav'>
+                <Nav className='mr-auto'>
                     <NavLink to='/'>Home</NavLink>
                     <NavLink to='/blog'>Blog</NavLink>
                     <NavLink to='/patterns'>Patterns</NavLink>

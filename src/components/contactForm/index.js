@@ -11,11 +11,11 @@ const ContactForm = () => {
                 <Form.Row className='contactRow'>
                     <Col>
                         <Form.Label>First Name</Form.Label>
-                        <Form.Control placeholder="First name"/>
+                        <Form.Control placeholder='First name'/>
                     </Col>
                     <Col>
                         <Form.Label>Last Name</Form.Label>
-                        <Form.Control placeholder="Last name"/>
+                        <Form.Control placeholder='Last name'/>
                     </Col>
                 </Form.Row>
 

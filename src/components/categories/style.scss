@@ -2,7 +2,7 @@ $font-primary-color: #161616;
 $font-hover-color: #cc9a48;
 
 .categoriesList {
-    margin: 10px;
+    text-align: center;
     padding: 10px;
 }
 
@@ -14,4 +14,8 @@ $font-hover-color: #cc9a48;
 .flex-column a:hover {
     text-decoration: underline;
     color: $font-hover-color;
+}
+
+h5 {
+    text-transform: uppercase;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import './style.scss';
 import {Container, Card, CardDeck} from 'react-bootstrap';
+import './style.scss';
 
 const Patterns = () => {
     return (

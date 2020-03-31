@@ -1,12 +1,13 @@
-$background-primary-color: #dfdfdf;
-
 .post {
-    background-color: $background-primary-color;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 25px;
-    padding: 25px;
+    padding: 10px;
 }
 
 .postTemplateHeading {
     margin-top: 10px;
+}
+
+.postText {
+    text-align: justify;
 }

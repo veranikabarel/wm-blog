@@ -8,10 +8,10 @@ const Contact = () => {
     return (
         <Container>
             <Row>
-                <Col>
+                <Col sm={9}>
                     <ContactForm></ContactForm>
                 </Col>
-                <Col xs={2}>
+                <Col sm={3}>
                     <Sidebar ></Sidebar>
                 </Col>
             </Row>
