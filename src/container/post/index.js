@@ -1,17 +1,22 @@
 import React from 'react';
-import './style.scss';
-import BlogPostTemplate from '../../components/blogPostTemplate';
 import BlogPost from '../../components/blogPost';
 import Sidebar from '../../components/sidebar';
+import './style.scss';
+import {Container, Row, Col} from 'react-bootstrap';
 
 const Post = () => {
     return (
-        <div>
-            <BlogPostTemplate>
-                <BlogPost/>
-                <Sidebar/>
-            </BlogPostTemplate>
-        </div>
+        <Container>
+            <Row>
+                <Col sm={9}>
+                    <BlogPost/>
+                </Col>
+                <Col sm={3}>
+                    <Sidebar/>
+                </Col>
+            </Row>
+        </Container>
+
     );
 }
 

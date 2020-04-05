@@ -5,7 +5,7 @@ import './style.scss';
 
 const Patterns = () => {
     return (
-        <Container>
+        <Container className='patternPage'>
             <Row>
                 <Col sm={4}>
                     <CardTemplate></CardTemplate>
