@@ -8,14 +8,13 @@ const NewsletterForm = () => {
             <h5>Newsletter:</h5>
             <Form.Row>
                 <Col>
-                    <Form.Control size='sm' type='email' placeholder='Enter email'/>
+                    <Form.Control size='sm' type='email'/>
                 </Col>
             </Form.Row>
-            < Button className='signUpButton' variant='light' type='submit' size='sm'>
-                Sign up
+            < Button className='newsletterFormButton' variant='light' type='submit' size='sm'>
+                Sign Up
             </Button>
         </Form.Group>
-
     );
 }
 
