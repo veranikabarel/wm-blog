@@ -5,7 +5,7 @@ import './style.scss';
 const Footer = () => {
     return (
         <Container>
-            <Navbar sticky='bottom' className='footer justify-content-center'>
+            <Navbar className='footer justify-content-center'>
                 <p >&copy; wool morning 2020</p>
             </Navbar>
         </Container>

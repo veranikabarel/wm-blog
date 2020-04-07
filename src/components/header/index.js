@@ -6,8 +6,8 @@ import './style.scss';
 
 const Header = () => {
     return (
-        <Container className='container'>
-            <Navbar collapseOnSelect expand='lg'>
+        <Navbar collapseOnSelect expand='lg'>
+            <Container className='container'>
                 <Navbar.Toggle aria-controls='responsive-navbar-nav'/>
                 <Navbar.Collapse id='responsive-navbar-nav'>
                     <Nav className='mr-auto'>
@@ -22,8 +22,8 @@ const Header = () => {
                     </Nav>
                 </Navbar.Collapse>
                 <SearchForm/>
-            </Navbar>
-        </Container>
+            </Container>
+        </Navbar>
     )
 }
 
