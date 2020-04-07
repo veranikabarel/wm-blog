@@ -5,8 +5,8 @@ import './style.scss';
 
 const Home = () => {
     return (
-        <Container >
-            <CardColumns className='home'>
+        <Container className='home'>
+            <CardColumns>
                 <Card>
                     <Card.Img variant="top" src={postPic}/>
                     <Card.Body>

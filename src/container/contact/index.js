@@ -6,7 +6,7 @@ import './style.scss';
 
 const Contact = () => {
     return (
-        <Container>
+        <Container className='contactPage'>
             <Row>
                 <Col sm={9}>
                     <ContactForm></ContactForm>

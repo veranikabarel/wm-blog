@@ -7,12 +7,10 @@ import './style.scss';
 
 const Sidebar = () => {
     return (
-        <Container>
-            <div className='sidebar justify-content-center'>
-                <AboutMe></AboutMe>
-                <Social></Social>
-                <Categories></Categories>
-            </div>
+        <Container className='sidebar justify-content-center'>
+            <AboutMe></AboutMe>
+            <Social></Social>
+            <Categories></Categories>
         </Container>
     );
 }
