@@ -1,11 +1,13 @@
 import React from 'react';
 import {Container, CardColumns, Card} from 'react-bootstrap';
 import postPic from '../../assets/random.png';
+import JumbotronImg from '../../components/jumbotron';
 import './style.scss';
 
 const Home = () => {
     return (
         <Container className='home'>
+         <JumbotronImg/>
             <CardColumns>
                 <Card>
                     <Card.Img variant="top" src={postPic}/>
