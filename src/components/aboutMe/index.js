@@ -4,10 +4,10 @@ import './style.scss';
 const AboutMe = () => {
     return (
         <div>
-            <p className='aboutMeText'>Lorem ipsum dolor sit amet, consectetur adipiscing
-                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
+            <p className='aboutMeText'>Welcome to WOOL MORNING, the place that was created
+                to inspire, gather like-minded knitters and spread the idea of natural fibers.
+                My name is Veranika and in this blog I will be putting thoughts and feelings
+                into stitches.
             </p>
         </div>
     );

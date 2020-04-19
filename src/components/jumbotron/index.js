@@ -4,14 +4,10 @@ import './style.scss';
 
 const JumbotronImg = () => {
     return (
-        <Jumbotron>
-            <h1>Hello, world!</h1>
+        <Jumbotron className='jumbotron'>
+            <h1>love for wool</h1>
             <p>
-                This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention to featured content or information.
-            </p>
-            <p>
-                <Button variant="light">Learn more</Button>
+                <Button href ='/blog' className='jumbotron_btn' variant="light">Learn more</Button>
             </p>
         </Jumbotron>
     );
