@@ -1,7 +1,7 @@
 $icons-primary-color: #161616;
+$icons-hover-color: #cc9a48;
 
 .social {
-    color: $icons-primary-color;
     font-size: 20px;
     text-align: center;
     margin: 10px;
@@ -9,4 +9,13 @@ $icons-primary-color: #161616;
 
 .eachIcon {
     margin: 5px;
+    color: $icons-primary-color;
+}
+
+.eachIcon:hover {
+    color: $icons-hover-color;
+}
+
+a {
+    text-decoration: none;
 }

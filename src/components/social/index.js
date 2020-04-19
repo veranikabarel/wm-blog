@@ -7,9 +7,12 @@ import './style.scss';
 const Social = () => {
     return (
         <div className='social'>
-            <FaFacebook className='eachIcon'/>
-            <FaInstagram className='eachIcon'/>
-            <FaPinterest className='eachIcon'/>
+            <a href='https://www.facebook.com/woolmorning/' rel='noopener noreferrer' target='_blank'>
+                <FaFacebook className='eachIcon'/></a>
+            <a href='https://www.instagram.com/_woolmorning/' rel='noopener noreferrer' target='_blank'>
+                <FaInstagram className='eachIcon'/></a>
+            <a href='https://pl.pinterest.com/03vsqb85tksp6e98t3gzhmr9gfui2o/' rel='noopener noreferrer' target='_blank'>
+                <FaPinterest className='eachIcon'/></a>
         </div>
     );
 }
