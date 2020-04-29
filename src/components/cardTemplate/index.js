@@ -1,6 +1,6 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap';
-import postPic from '../../assets/random.png';
+import postPic from '../../assets/sockss.JPG';
 import './style.scss';
 
 const CardTemplate = () => {
