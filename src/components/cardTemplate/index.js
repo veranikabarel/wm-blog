@@ -1,11 +1,11 @@
 import React from 'react';
 import {Card, Button} from 'react-bootstrap';
-import postPic from '../../assets/sockss.JPG';
+import postPic from '../../assets/random.png';
 import './style.scss';
 
 const CardTemplate = () => {
     return (
-        <Card className='text-center'>
+        <Card className='cardTemplate text-center'>
             <Card.Img className='cardImg' variant="top" src={postPic}/>
             <Card.Body>
                 <Card.Title>Card title</Card.Title>

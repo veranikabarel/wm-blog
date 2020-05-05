@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <Container>
             <Navbar className='footer justify-content-center'>
-                <p >&copy; wool morning 2020</p>
+                <p >&copy; veranika barel 2020</p>
             </Navbar>
         </Container>
     );

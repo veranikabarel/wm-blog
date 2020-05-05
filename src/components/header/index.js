@@ -1,5 +1,5 @@
 import React from 'react';
-import SearchForm from '../searchForm';
+// import SearchForm from '../searchForm';
 import {Nav, Navbar, Container} from 'react-bootstrap';
 import {NavLink} from 'react-router-dom';
 import './style.scss';
@@ -21,7 +21,7 @@ const Header = () => {
                         <NavLink to='/contact'>Contact</NavLink>
                     </Nav>
                 </Navbar.Collapse>
-                <SearchForm/>
+                {/* <SearchForm/> */}
             </Container>
         </Navbar>
     )

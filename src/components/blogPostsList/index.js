@@ -1,11 +1,11 @@
 import React from 'react';
-import {Card, Button, Row, Col, Container} from 'react-bootstrap';
+import {Card, Button, Row, Col} from 'react-bootstrap';
 import postPic from '../../assets/random.png';
 import './style.scss';
 
 const BlogPostsList = () => {
     return (
-        <Container className='blogPostsList'>
+        <div className='blogPostsList'>
             <Row>
                 <Col>
                     <Card.Img className='cardImg' src={postPic}/>
@@ -17,11 +17,11 @@ const BlogPostsList = () => {
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
-                        <Button variant="light">Go somewhere</Button>
+                        <Button href='/blog-post' variant="light">Go somewhere</Button>
                     </Card.Body>
                 </Col>
             </Row>
-        </Container>
+        </div>
     );
 }
 

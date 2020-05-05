@@ -7,4 +7,10 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 12px;
   margin: 0;
+
 }
+
+.app {
+  min-height: calc(100vh - 20px);
+}
+
